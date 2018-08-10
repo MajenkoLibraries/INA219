@@ -126,7 +126,7 @@ uint16_t INA219::readRegister(uint8_t reg) {
     _wire->requestFrom(_addr, (uint8_t)2);
     uint8_t h = Wire.read();
     uint8_t l = Wire.read();
-    return (v << 8) | l;
+    return (h << 8) | l;
 }
 
 void INA219::writeRegister(uint8_t reg, uint16_t val) {
