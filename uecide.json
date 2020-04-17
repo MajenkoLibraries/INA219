@@ -1,18 +1,1 @@
-{
-    "name": "INA219",
-    "provides": "INA219.h",
-    "license": "LICENSE.md",
-    "readme": "README.md",
-    "description": "INA219 Current Sensor",
-    "category": "Sensors",
-    "subcategory": "Power",
-    "maintainer": "Matt Jenkins <matt@majenko.co.uk>",
-    "version": "1.0.0",
-    "family": "all",
-    "core": "all",
-    "install": {
-        "examples": "/",
-        "INA219.cpp": "/",
-        "INA219.h": "/"
-    }
-}
+{"name":"INA219","provides":"INA219.h","license":"LICENSE.md","readme":"README.md","description":"INA219 Current Sensor","category":"Sensors","subcategory":"Power","maintainer":"Matt Jenkins <matt@majenko.co.uk>","version":"1.0.1","family":"all","core":"all","install":{"examples":"\/","library.properties":"\/","src":"\/"}}
